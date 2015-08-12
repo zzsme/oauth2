@@ -1,16 +1,16 @@
-# OAuth2.0 ¼òÒ×Ê¾Àı
+# OAuth2.0 ç®€æ˜“ç¤ºä¾‹
 
-## ³ÌĞò²¿Êğ
-### ĞéÄâ»ú»·¾³²¿Êğ
+## ç¨‹åºéƒ¨ç½²
+### è™šæ‹Ÿæœºç¯å¢ƒéƒ¨ç½²
 
-1. hostsÎÄ¼ş
+* hostsæ–‡ä»¶
 
 ```
 127.0.0.1    client.oauth.org
 127.0.0.1    server.oauth.org
 ```
 
-2. ApacheÅäÖÃÎÄ¼ş
+* Apacheé…ç½®æ–‡ä»¶
 
 ```
 <VirtualHost *:80>
@@ -34,15 +34,15 @@
 </VirtualHost>
 ```
 
-## ´úÂë²¿Êğ
+## ä»£ç éƒ¨ç½²
 ```
 oauth
-  |-client  #¿Í»§¶Ë
-  |-server  #·şÎñ¶Ë
+  |-client  #å®¢æˆ·ç«¯
+  |-server  #æœåŠ¡ç«¯
 ```
 
 
-## Ïà¹ØÁ¬½Ó
+## ç›¸å…³è¿æ¥
 
 1. [oauth2-php](https://code.google.com/p/oauth2-php): https://code.google.com/p/oauth2-php
 
