@@ -1,10 +1,11 @@
 ﻿<?php
+//phpinfo();die;
 if (isset($_POST['code'])) {
     require_once 'http.class.php';
-
     $http = new PPHTTP();
     $array = $_POST;
     $result = $http->httppost('http://server.oauth.org/token.php', $array);
+
     $assoc = json_decode($result, true);
     Header('Location: http://client.oauth.org/auth2.php?token=' . $assoc['access_token']);
     exit();
